@@ -1,0 +1,14 @@
+html {
+	background-color: beige;
+}
+
+label {
+	display: block;
+}
+
+input {
+	width: 500px;
+}
+label, input {
+	margin: 0.5em;
+}

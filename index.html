@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typer Grind</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<label for="text-area">Type text here: </label>
+	<input type="text" id="text-area" name="text-area" size="10" oninput="aFunction()" disabled/>
+	<button id="start-button" onclick="timer.startTimer()">Start</button>
+  
+  <label id="speed-text"> </label>
+	<button id="end-button" onclick="timer.getElapsedTime()" disabled>End</button>
+	<script src="index.js"></script>
+  </body>
+</html>
