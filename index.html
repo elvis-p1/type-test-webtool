@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	<label for="text-area">Type text here: </label>
-	<input type="text" id="text-area" name="text-area" size="10" oninput="aFunction()" disabled/>
-	<button id="start-button" onclick="timer.startTimer()">Start</button>
+  <div id="outer-box">
+    <div id="excerpt-section">
+      Oh, I'm sorry, did I break your concentration? I didn't mean to do that. Please, continue. You were saying something about "best intentions"? What's the matter? Oh, you were finished? Oh, well allow me to retort: What does Marsellus Wallace look like? What country you from? "What" ain't no country I've ever heard of. They speak English in What? English, do you speak it? Then you know what I'm saying.
+    </div>
+    <div>
+      <label for="text-area">Type text here: </label>
+      <input type="text" id="text-area" name="text-area" size="10" disabled/>
+      <button id="start-button">Start</button>
+      <button id="end-button"  disabled>End</button>
+      <label id="speed-text">WPM: 0</label>
+    </div>
+  </div>
   
-  <label id="speed-text"> </label>
-	<button id="end-button" onclick="timer.getElapsedTime()" disabled>End</button>
+
 	<script src="index.js"></script>
   </body>
 </html>

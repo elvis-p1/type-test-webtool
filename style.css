@@ -12,3 +12,20 @@ input {
 label, input {
 	margin: 0.5em;
 }
+
+#outer-box {
+	width: 70%;
+	padding: 100px;
+	border-color: black;
+	border-radius: 25px;
+	border-width: 3px;
+	border-style: solid;
+	background-color: #CEE9E8;
+}
+
+#excerpt-section {
+	font-size: 2.5em;
+	background-color: #A4DAD8;
+	border-radius: 12px;
+	padding: 1.5em;
+}
